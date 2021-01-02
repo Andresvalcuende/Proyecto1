@@ -1,11 +1,13 @@
 body{
     background-image: url("img/fondo.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 main{
     text-align: center;
     color: white;
-    margin-top: 250px;
+    margin-bottom: 100px;
+    margin-top: 300px;
 }
 #abajo{
     background-image: url("img/abajo-1.png");
@@ -24,17 +26,32 @@ nav {
     background-size: cover;
     width: 900px;
     height: 50px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: block;
-    margin-top: 160px;
-    margin-bottom: -1px;
+    margin-top: 131px;
 }
 ul{
     text-align: center;
+    padding-top: 15px;
 }
 li{
     display: inline;
     text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+h1{
+    text-align: center;
+}
+section{
+    height: 900px;
+    width: 900px;
+    background-color: white;
+    margin-left: 200px;
+}
+img{
+    width: 800px;
+    height: 400px;
+    padding-left: 50px;
+}
+input{
+    padding: 40px;
 }
