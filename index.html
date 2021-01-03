@@ -16,12 +16,12 @@
     <nav>
         <ul>
             <li><a href="#introduccion">Introducción</a></li>
-            <li>India</li>
-            <li>México</li>
-            <li>Nueva Zelanda</li>
-            <li>Perú</li>
-            <li>Islandia</li>
-            <li>Japón</li>
+            <li><a href="#india">India</a></li>
+            <li><a href="#mexico">México</a></li>
+            <li><a href="#nuevazelanda">Nueva Zelanda</a></li>
+            <li><a href="#peru">Perú</a></li>
+            <li><a href="#islandia">Islandia</a></li>
+            <li><a href="#japon">Japón</a></li>
         </ul>
     </nav>
     <h1>NO SUEÑES, VUELA DE VERDAD</h1>
@@ -42,12 +42,29 @@
         </tr>
     </table>
     <form action="get">
+        <h1>Envío de datos</h1>
         <label for="nombre">Nombre</label><br>
-        <input type="text" id="nombre">
+        <input type="text" id="nombre" class="input1"><br>
         <label for="apellidos">Apellidos</label><br>
-        <input type="text" id="apellidos">
+        <input type="text" id="apellidos" class="input1"><br>
         <label for="email">Email</label><br>
-        <input type="text" id="email">
+        <input type="text" id="email" class="input1"><br>
+        <fieldset>
+            <legend>Viajes deseados</legend>
+            <input type="radio" id="india2" name="viajes">
+            <label for="india2">India</label>
+            <input type="radio" id="mexico2" name="viajes">
+            <label for="mexico2">México</label>
+            <input type="radio" id="nuevazelanda2" name="viajes">
+            <label for="nuevazelanda2">Nueva Zelanda</label>
+            <input type="radio" id="peru2" name="viajes">
+            <label for="peru2">Perú</label>
+            <input type="radio" id="islandia2" name="viajes">
+            <label for="islandia2">Islandia</label>
+            <input type="radio" id="japon2" name="viajes">
+            <label for="japon2">Japón</label>
+        </fieldset>
+        <br>
         <button>Enviar</button>
     </form>
 </section>

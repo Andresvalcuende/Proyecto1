@@ -51,9 +51,6 @@ section{
     height: 400px;
     padding-left: 50px;
 }
-input{
-    padding: 40px;
-}
 
 table{
     width: 900px;
@@ -66,5 +63,31 @@ img{
     background-repeat: no-repeat;
 }
 form{
-    text-align: center;
+    width: 860px;
+    background-color: #cad1ce;
+    padding-left: 40px;
+    height: 600px;
+    padding-top: 10px;
+}
+label{
+    text-align: left;
+}
+.input1{
+    width: 800px;
+    background-color: #cad1ce;
+    border: 1px solid black;
+    padding-top: 20px;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+fieldset{
+    display: inline-block;
+    padding-left: 40px;
+    width: 750px;
 }
