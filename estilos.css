@@ -42,16 +42,29 @@ h1{
     text-align: center;
 }
 section{
-    height: 900px;
     width: 900px;
     background-color: white;
     margin-left: 200px;
 }
-img{
+#introduccion{
     width: 800px;
     height: 400px;
     padding-left: 50px;
 }
 input{
     padding: 40px;
+}
+
+table{
+    width: 900px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+#india{
+    background-repeat: no-repeat;
+}
+form{
+    text-align: center;
 }

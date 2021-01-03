@@ -26,11 +26,30 @@
     </nav>
     <h1>NO SUEÑES, VUELA DE VERDAD</h1>
     <h2>Tenemos los mejores aviones hacia destinos de todo el planeta. Sólo dinos donde quieres ir.</h2>
-    <img src="img/viaje.jpg" alt="">
-    <form>
-        <input type="image" src="img/india.jpg" alt="india" width="100px" height="100px">
+    <img src="img/viaje.jpg" alt="viaje" id="introduccion">
+    <table>
+        <tr>
+            <th id="india"><h1>India</h1><a href="#india"><img src="img/india.jpg" alt="india"></a><p>Haz click aquí para elegir este destino</p></th>
+            <th id="mexico"><h1>México</h1><a href="#mexico"><img src="img/mexico.jpg" alt="mexico"></a><p>Haz click aquí para elegir este destino</p></th>
+        </tr>
+        <tr>
+            <th id="nuevazelanda"><h1>Nueva Zelanda</h1><a href="#nuevazelanda"><img src="img/nuevazelanda.jpg" alt="nuevazelanda"></a><p>Haz click aquí para elegir este destino</p></th>
+            <th id="peru"><h1>Perú</h1><a href="#peru"><img src="img/peru.jpg" alt="peru"></a><p>Haz click aquí para elegir este destino</p></th>
+        </tr>
+        <tr>
+            <th id="islandia"><h1>Islandia</h1><a href="#islandia"><img src="img/islandia.jpg" alt="islandia"></a><p>Haz click aquí para elegir este destino</p></th>
+            <th id="japon"><h1>Japón</h1><a href="#japon"><img src="img/japon.jpg" alt="japon"></a><p>Haz click aquí para elegir este destino</p></th>
+        </tr>
+    </table>
+    <form action="get">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre">
+        <label for="apellidos">Apellidos</label><br>
+        <input type="text" id="apellidos">
+        <label for="email">Email</label><br>
+        <input type="text" id="email">
+        <button>Enviar</button>
     </form>
-
 </section>
 </body>
 </html>
