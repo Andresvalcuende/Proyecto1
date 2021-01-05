@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 body{
     background-image: url("img/fondo.jpg");
     background-size: cover;
@@ -9,7 +11,7 @@ main{
     text-align: center;
     color: white;
     margin-bottom: 100px;
-    margin-top: 300px;
+    margin-top: 221px;
 }
 #abajo{
     width: 71px;
@@ -20,12 +22,14 @@ main{
     color: white;
     width: 900px;
     height: 50px;
-    margin-top: 122px;
+    margin-top: 60px;
     transition: 1s;
     padding-top: 5px;
 }
 ul{
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 li{
     display: inline;
@@ -51,9 +55,9 @@ section{
 table{
     width: 900px;
 }
-img{
-    height: 100px;
-    width: 100px;
+th img{
+    height: 200px;
+    width: 350px;
 }
 #india{
     background-repeat: no-repeat;
@@ -97,7 +101,7 @@ button {
 }
 .sticky {
     position: fixed;
-    top: -122px;
+    top: -60px;
     background-color: #474b50;
     color: white;
     width: 900px;
@@ -106,4 +110,39 @@ button {
 }
 li:hover{
     background-color: black;
+}
+
+th h1{
+    font-family: "Source Code Pro";
+}
+th p{
+    font-family: merriweather;
+}
+th{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+main h1{
+    font-family: "Source Code Pro";
+    font-size: 5em;
+}
+main h2{
+    font-family: merriweather;
+}
+section h1{
+     font-family: "Source Code Pro";
+    font-size: 2em;
+}
+section h2{
+    font-family: merriweather;
+    font-size: smaller;
+    text-align: center;
+}
+form{
+    font-family: "Source Code Pro";
+    font-size: large;
+}
+
+li a{
+    font-family: "Source Code Pro";
 }
