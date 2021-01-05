@@ -2,6 +2,8 @@ body{
     background-image: url("img/fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 main{
     text-align: center;
@@ -10,33 +12,27 @@ main{
     margin-top: 300px;
 }
 #abajo{
-    background-image: url("img/abajo-1.png");
-    width: 71px;
-    height: 71px;
-    margin-left: 47%;
-}
-#abajo:hover{
-    background-image: url("img/abajo-2.png");
     width: 71px;
     height: 71px;
 }
-nav {
+.menu {
     background-color: #474b50;
     color: white;
-    background-size: cover;
     width: 900px;
     height: 50px;
-    margin-top: 131px;
+    margin-top: 122px;
+    transition: 1s;
+    padding-top: 5px;
 }
 ul{
     text-align: center;
-    padding-top: 15px;
 }
 li{
     display: inline;
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
+    height: 50px;
 }
 h1{
     text-align: center;
@@ -68,6 +64,7 @@ form{
     padding-left: 40px;
     height: 600px;
     padding-top: 10px;
+    margin-bottom: 300px;
 }
 label{
     text-align: left;
@@ -90,4 +87,23 @@ fieldset{
     display: inline-block;
     padding-left: 40px;
     width: 750px;
+}
+
+button {
+    background-color: #cad1ce;
+    border: 2px solid #474b50;
+    width: 500px;
+    height: 50px;
+}
+.sticky {
+    position: fixed;
+    top: -122px;
+    background-color: #474b50;
+    color: white;
+    width: 900px;
+    height: 50px;
+    padding-top: 5px;
+}
+li:hover{
+    background-color: black;
 }

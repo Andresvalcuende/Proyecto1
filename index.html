@@ -9,11 +9,11 @@
 <main>
     <h1>VIAJES BOSCO</h1>
     <h2>Las mejores aventuras por todo el mundo gestionadas por tu propio centro educativo</h2>
-    <div id="abajo"><a href="#resto"></a></div>
+    <a href="#introduccion" ><img src="img/abajo-1.png" alt="abajo" id="abajo" onmouseover="this.src='img/abajo-2.png'" onmouseout="this.src='img/abajo-1.png'"></a>
 </main>
 
-<section>
-    <nav>
+<section class="introduccion">
+    <nav id="menu" class="menu">
         <ul>
             <li><a href="#introduccion">Introducción</a></li>
             <li><a href="#india">India</a></li>
@@ -51,22 +51,24 @@
         <input type="text" id="email" class="input1"><br>
         <fieldset>
             <legend>Viajes deseados</legend>
-            <input type="radio" id="india2" name="viajes">
+            <input type="checkbox" id="india2" name="viajes">
             <label for="india2">India</label>
-            <input type="radio" id="mexico2" name="viajes">
+            <input type="checkbox" id="mexico2" name="viajes">
             <label for="mexico2">México</label>
-            <input type="radio" id="nuevazelanda2" name="viajes">
+            <input type="checkbox" id="nuevazelanda2" name="viajes">
             <label for="nuevazelanda2">Nueva Zelanda</label>
-            <input type="radio" id="peru2" name="viajes">
+            <input type="checkbox" id="peru2" name="viajes">
             <label for="peru2">Perú</label>
-            <input type="radio" id="islandia2" name="viajes">
+            <input type="checkbox" id="islandia2" name="viajes">
             <label for="islandia2">Islandia</label>
-            <input type="radio" id="japon2" name="viajes">
+            <input type="checkbox" id="japon2" name="viajes">
             <label for="japon2">Japón</label>
         </fieldset>
         <br>
-        <button>Enviar</button>
+        <button>ENVIAR</button>
     </form>
 </section>
 </body>
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </html>
